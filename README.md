@@ -8,7 +8,7 @@ The run_analysis.R scripts will download, unzip, read, combined and label the va
 Code Book 
 =================
 
-The data sets prodice by the run_analysis.R consist of the conbination of the test and train data files provided on the study described below. The first outputed datasets named data, produced by the script select only those columns calculating the mean or standard deviation of the measures of the study described below and adds the a column to specifies if the observation were obtain from the test or train files. The dataset named dataMean, groups the dataset named data by subject ID and activity performed and calculate the mean of every column and drop the field specifying whether the observations was from the test or trainning files.
+The data sets prodice by the run_analysis.R consist of the conbination of the test and train data files provided on the study described below. The first outputed datasets named data, produced by the script selects only those columns calculating the mean or standard deviation of the measures of the study described below and adds a column named dataSorce to specifies if the observation were obtain from the test or train files. The dataset named dataMean, groups the dataset named data by subject ID and activity performed and calculate the mean of every column and drop the field specifying whether the observations was from the test or trainning files.
 
 Study Description and original cook book 
 =================
